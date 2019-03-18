@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学生端</title>
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/studentframe.css">
+    <link rel="stylesheet" href="../css/update.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="headerdiv">
+            <font color="black" id="title">
+                <h2>学生毕业设计指导网站</h2>
+            </font>
+        </div>
+    </div>
+    <div id="person">
+        <pre>   <font color="black">亲爱的xxx,xxx，欢迎你</font></pre>
+    </div>
+    <div id="munu">
+        <div class="btn-group">
+            <button type="button" class="btn ">个人信息管理</button>
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">修改用户密码</a></li>
+                <li><a href="#">查看个人信息</a></li>
+                <li><a href="#">修改个人信息</a></li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn ">我的导师</button>
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#"></a>查看导师信息</li>
+                <li><a href="#"></a>提交论文</li>
+                <li><a href="#"></a>提出问题</li>
+                <li><a href="#"></a>查看问题</li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn ">资料中心</button>
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#"></a>上传文件</li>
+                <li><a href="#"></a>查找资料</li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn ">消息中心</button>
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#"></a>查看信息</li>
+                <li><a href="#"></a>发送消息</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="frame">
+        <div id="updateInfo">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="username" class="col-sm-4 control-label">用户名</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="username" placeholder="用户名">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="major" class="col-sm-4 control-label">专业</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="major" placeholder="专业">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="classname" class="col-sm-4 control-label">班级</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="classname" placeholder="班级">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="teacher" class="col-sm-4 control-label">导师</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="teacher" placeholder="导师">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email" class="col-sm-4 control-label">电子邮箱</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="email" placeholder="电子邮箱">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="phone" class="col-sm-4 control-label">手机号码</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="phone" placeholder="手机号码">
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-offset-4">
+                    <button type="submit" class="btn btn-success">更新</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+    
+</html>

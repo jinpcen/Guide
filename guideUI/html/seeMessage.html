@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>查看消息</title>
+</head>
+<script src="../js/jquery-3.3.1.js"></script>
+<script src="../dist/js/bootstrap.js"></script>
+<link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/sendMessage.css">
+<link rel="stylesheet" href="">
+
+<body>
+	<div class="header">
+		<div id="headerdiv">
+			<font color="black" id="title">
+				<h2>查看消息</h2>
+			</font>
+		</div>
+	</div>
+	<div id="logindiv">
+		<div id="div1">
+			<form class="form-horizontal" id="form">
+				<!--接受者id-->
+				<div class="form-group ">
+					<label for="username" class="col-lg-3 control-label">发送者id</label>
+					<div class="col-lg-9">
+						<input type="text" class="form-control" id="username" placeholder="接受者id">
+					</div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="password" class="col-lg-3 control-label">主题</label>
+					<div class="col-lg-9">
+						<input type="text" class="form-control" id="topic" placeholder="标题">
+					</div>
+				</div>
+				<br />
+				<div class="form-group ">
+					<label for="username" class="col-lg-3 control-label">正文</label>
+					<div class="col-lg-9">
+						<textarea class="form-control" name="textarea"></textarea>
+					</div>
+				</div>
+				<br />
+				<div class="form-group">
+					<div class="col-lg-offset-3 col-lg-3">
+						<button type="submit" class="btn btn-success" id="put">确定</button>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-offset-3 col-lg-3">
+						<button type="submit" class="btn btn-success" id="put">回复</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+#updateInfo {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 30%;
+	height: 500px;
+}
+
+#updateInfo button {
+	display: block;
+	width: 305px;
+}

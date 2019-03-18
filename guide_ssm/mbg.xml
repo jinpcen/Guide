@@ -1,0 +1,98 @@
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<context id="DB2Tables" targetRuntime="MyBatis3">
+
+		<jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost/guide?serverTimezone=GMT%2B8&amp;useSSL=false"
+			userId="root" password="cjp123">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<javaModelGenerator targetPackage="guide.bean"
+			targetProject=".\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="mapper"
+			targetProject=".\src\main\resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="guide.dao" targetProject=".\src\main\java">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<table tableName="class" domainObjectName="Class"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="depar" domainObjectName="depar"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="file_id" domainObjectName="File"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false">
+		</table>
+		<table tableName="institute" domainObjectName="Institute"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="manager" domainObjectName="Manager"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="message" domainObjectName="Message"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="question" domainObjectName="Question"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="sdownfile" domainObjectName="Sdownfile"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="student" domainObjectName="Student"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="tdownfile" domainObjectName="Tdownfile"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="teacher" domainObjectName="Teacher"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="thesis" domainObjectName="Thesis"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="管理员消息表" domainObjectName="Mmessage"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="教师消息表" domainObjectName="Tmessage"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+		<table tableName="学生消息表" domainObjectName="Smessage"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+	</context>
+</generatorConfiguration>

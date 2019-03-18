@@ -1,0 +1,21 @@
+#selectInfo {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 30%;
+	height: 500px;
+}
+
+#selectInfo button {
+	position: absolute;
+	top: 63%;
+	left: 30%;
+	display: block;
+	width: 305px;
+}
+#mytable{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+}
+

@@ -1,0 +1,39 @@
+.header{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	background-color: rgb(233, 232, 232);
+}
+
+#headerdiv{
+	height: 100px;
+	color: rgba(17, 16, 16, 0.082);
+	border: 1px solid rgb(233, 232, 232);
+}
+
+#logindiv{
+	height: 600px;
+}
+
+#div1{
+	display: block;
+	position: absolute;
+	left: 30%;
+	top: 270px;
+}
+
+#form{
+	display: block;
+	width: 500px;
+	height: 430px;
+}
+
+#title{
+	text-align: center;
+	line-height: 100px;
+}
+
+#put{
+	display: block;
+	width: 300px;
+}
